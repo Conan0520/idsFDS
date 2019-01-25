@@ -18,7 +18,7 @@ package com.ids.secstar.model.fds.type;
 import com.ids.model.map.type.NameValuePair;
 
 //  basic modes of operation
-public enum TurbulenceModel implements NameValuePair {
+    public enum TurbulenceModel implements NameValuePair {
     SMAGORINSKY(10, "Constant coefficient Smagorinsky model"),
     DYNAMIC(20, "Dynamic Smagorinsky model"),
     DEARDORFF(30, "Deardorff model "),

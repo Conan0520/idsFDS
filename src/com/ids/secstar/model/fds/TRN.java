@@ -8,7 +8,7 @@ import com.ids.secstar.model.annotations.SecAnnotated;
  */
 
 @SecAnnotated
-@DescribedBy("MESH Transformations")
+@DescribedBy("Mesh Transformations")
 public class TRN extends Namelist {
     @DescribedBy("m")
     private double CC;
