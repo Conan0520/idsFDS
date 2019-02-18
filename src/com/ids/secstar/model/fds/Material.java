@@ -59,15 +59,15 @@ public class Material extends Namelist {
     private List<Double> heatOfReaction;// 0 HEAT_OF_REACTION
 
     @DescribedBy("ID")
-    private String ID;
+    private String id; //ID
 
-    @DescribedBy("材质")
+    @DescribedBy("热解残留的材质")
     private String matlId; //MATL_ID
 
-    @DescribedBy("材质在反应中所占的比例——kg/kg")
+    @DescribedBy("材质在残留物中所占的比例")
     private List<Double> nuMatl;//0 NU_MATL
 
-    @DescribedBy("物质中反应中所占的比例")
+    @DescribedBy("物质在残留物中所占的比例")
     private List<Double> nuSpec;//	0 NU_SPEC
 
     @DescribedBy("反应数量")
@@ -100,7 +100,7 @@ public class Material extends Namelist {
     @DescribedBy("比热容曲线")
     private String specificHeatRamp; //SPECIFIC_HEAT_RAMP
 
-    @DescribedBy("物质类型")
+    @DescribedBy("热解残留的物质")
     private String specId; //SPEC_ID
 
     @DescribedBy("临界征兆")

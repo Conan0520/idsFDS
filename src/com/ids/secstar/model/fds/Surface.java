@@ -192,7 +192,7 @@ public class Surface extends Namelist {
     @DescribedBy("粒子上升时间曲线")
     private String rampPart; //RAMP_PART
 
-    @DescribedBy("热释放率上升曲线")
+    @DescribedBy("热释放率、质量损失率或热通量上升曲线")
     private String rampQ; //RAMP_Q
 
     @DescribedBy("表面温度上升曲线")
